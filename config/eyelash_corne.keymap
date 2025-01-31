@@ -124,7 +124,7 @@
         ACTIVATE {
             display-name = "ACTIVATION";
             bindings = <
-&trans  &trans           &trans           &trans           &trans  &trans                                &mmv MOVE_UP                     &trans  &tog 4           &tog 0  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &trans  &trans                                &mmv MOVE_UP                     &trans  &to 4            &to 0   &trans  &trans  &trans
 &trans  &trans           &trans           &trans           &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp LC(LA(DEL))  &trans  &trans  &trans  &trans
 &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans           &trans  &trans  &trans  &trans
                                           &trans           &trans  &trans                                                                 &trans  &trans           &trans
