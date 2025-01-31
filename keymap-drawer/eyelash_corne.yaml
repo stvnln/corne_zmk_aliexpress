@@ -292,4 +292,4 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Activation}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: ARROW}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
