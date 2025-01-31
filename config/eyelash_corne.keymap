@@ -50,25 +50,25 @@
     keymap {
         compatible = "zmk,keymap";
 
-        MAC {
-            display-name = "MAC";
+        WIN {
+            display-name = "WIN";
             bindings = <
-&kp ESCAPE          &kp Q  &kp W  &kp E     &kp R  &kp T                              &kp UP                &kp Y      &kp U            &kp I              &kp O    &kp P          &kp BACKSPACE
-&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D     &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J            &kp K              &kp L    &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT      &kp Z  &kp X  &kp C     &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N      &kp M            &kp COMMA          &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                                  &kp LGUI  &mo 2  &kp ENTER                                                &kp SPACE  &lt 4 BACKSPACE  &kp RIGHT_CONTROL
+&kp ESCAPE          &kp Q  &kp W  &kp E             &kp R  &kp T                              &kp UP                &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BACKSPACE
+&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D             &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                  &kp LEFT_CONTROL  &mo 2  &kp ENTER                                                &kp SPACE  &mo 3  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        WIN {
-            display-name = "WIN";
+        MAC {
+            display-name = "MAC";
             bindings = <
-&kp ESCAPE          &kp Q  &kp W  &kp E             &kp R  &kp T                              &kp UP                &kp Y      &kp U            &kp I          &kp O    &kp P     &kp BACKSPACE
-&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D             &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J            &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N      &kp M            &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                  &kp LEFT_CONTROL  &mo 2  &kp ENTER                                                &kp SPACE  &lt 3 BACKSPACE  &kp RIGHT_ALT
+&kp ESCAPE          &kp Q  &kp W  &kp E     &kp R  &kp T                              &kp UP                &kp Y      &kp U  &kp I              &kp O    &kp P          &kp BACKSPACE
+&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D     &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K              &kp L    &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C     &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N      &kp M  &kp COMMA          &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                                  &kp LGUI  &mo 2  &kp ENTER                                                &kp SPACE  &mo 4  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
