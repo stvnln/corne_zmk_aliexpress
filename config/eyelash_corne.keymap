@@ -99,14 +99,14 @@
 
         Activation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &to 5            &to 0   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp LC(RA(DEL))  &to 0   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &tog 5           &tog 0  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp LC(RA(DEL))  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans           &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans           &trans
             >;
         };
 
-        layer_5 {
+        WIN {
             display-name = "WIN";
             bindings = <
 &kp ESCAPE          &kp Q  &kp W  &kp E             &kp R  &kp T                                &kp UP                &kp Y        &kp U            &kp I          &kp O    &kp P     &kp BACKSPACE
