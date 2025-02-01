@@ -89,10 +89,10 @@
         ARROW_WIN {
             display-name = "ARROW";
             bindings = <
-&kp ESC  &trans  &trans  &trans  &kp CAPSLOCK  &kp C_VOL_UP                            &mmv MOVE_UP                     &trans                  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT)    &trans                   &trans
-&trans   &trans  &trans  &trans  &trans        &kp K_MUTE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LC(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(RC(RIGHT_ARROW))  &trans
-&trans   &trans  &trans  &trans  &trans        &kp C_VOL_DN  &trans                    &mmv MOVE_DOWN                   &trans                  &trans              &trans          &trans           &trans                   &trans
-                         &trans  &mo 5         &trans                                                                   &trans                  &trans              &trans
+&kp ESC         &trans  &trans  &trans        &kp CAPSLOCK  &kp C_VOL_UP                            &mmv MOVE_UP                     &trans                  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT)    &trans                   &trans
+&trans          &trans  &trans  &kp LS(TAB)   &kp TAB       &kp K_MUTE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LC(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(RC(RIGHT_ARROW))  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans        &trans        &kp C_VOL_DN  &trans                    &mmv MOVE_DOWN                   &trans                  &trans              &trans          &trans           &trans                   &trans
+                                &kp LEFT_GUI  &mo 5         &kp LEFT_ALT                                                             &trans                  &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -101,10 +101,10 @@
         ARROW-MAC {
             display-name = "Arrow-MAC";
             bindings = <
-&kp ESC  &none  &none  &none  &kp CAPSLOCK  &kp C_VOL_UP                           &mmv MOVE_UP                     &none                   &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp RG(RIGHT)    &none                        &none
-&none    &none  &none  &none  &none         &kp K_MUTE             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LG(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RG(RS(RIGHT_ARROW)))  &none
-&none    &none  &none  &none  &none         &kp C_VOL_DN  &none                    &mmv MOVE_DOWN                   &none                   &none               &none           &none            &none                        &none
-                       &none  &mo 5         &none                                                                   &none                   &none               &none
+&kp ESC         &none  &none  &none             &kp CAPSLOCK  &kp C_VOL_UP                            &mmv MOVE_UP                     &none                   &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp RG(RIGHT)    &none                        &none
+&none           &none  &none  &kp LS(TAB)       &kp TAB       &kp K_MUTE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LG(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RG(RS(RIGHT_ARROW)))  &none
+&kp LEFT_SHIFT  &none  &none  &none             &none         &kp C_VOL_DN   &none                    &mmv MOVE_DOWN                   &none                   &none               &none           &none            &none                        &none
+                              &kp LEFT_CONTROL  &mo 5         &kp RIGHT_GUI                                                            &none                   &none               &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
