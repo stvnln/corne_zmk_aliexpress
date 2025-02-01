@@ -1,6 +1,6 @@
 layers:
   MAC:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
@@ -49,7 +49,7 @@ layers:
   - Arrow-MAC
   - $$mdi:apple-keyboard-control$$
   WIN:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -61,7 +61,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
@@ -87,8 +87,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
+  - {t: ., h: '$$mdi:backspace-reverse-outline$$'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -98,7 +98,7 @@ layers:
   - ARROW
   - RIGHT WIN
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
