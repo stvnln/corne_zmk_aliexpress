@@ -1,6 +1,6 @@
 layers:
   MAC:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:keyboard-esc$$', h: '`'}
   - Q
   - W
   - E
@@ -27,7 +27,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '''', s: '"'}
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -49,7 +49,7 @@ layers:
   - Arrow-MAC
   - $$mdi:apple-keyboard-control$$
   WIN:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:keyboard-esc$$', h: '`'}
   - Q
   - W
   - E
@@ -76,7 +76,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -90,7 +90,7 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
   - {t: ., h: '$$mdi:backspace-reverse-outline$$'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -130,8 +130,8 @@ layers:
   - {t: '=', s: +}
   - {t: '-', s: _}
   - +
-  - (
-  - )
+  - '{'
+  - '}'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '[', s: '{'}
@@ -147,12 +147,12 @@ layers:
   - ACTIVATE
   - {t: '$$mdi:transfer$$', type: trans}
   ARROW:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: 'Ctl+Sft+$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+Sft+S, h: PRINTSCREEN}
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:volume-high$$
+  - Ctl+T
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:arrow-left-bold$$
@@ -162,10 +162,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab-reverse$$
+  - F2
   - $$mdi:keyboard-tab$$
-  - MUTE
+  - Ctl+Sft+L
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -177,10 +177,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
   - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+Z
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-low$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,12 +196,12 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Arrow-MAC:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: 'Alt+Gui+$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+Gui+4, h: Gui+Sft+3}
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:volume-high$$
+  - Gui+T
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+$$mdi:arrow-left-bold$$
@@ -211,10 +211,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab-reverse$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
-  - MUTE
+  - Sft+Gui+L
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -226,10 +226,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-low$$
+  - Sft+Gui+Z
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
