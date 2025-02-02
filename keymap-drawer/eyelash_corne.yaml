@@ -149,9 +149,9 @@ layers:
   ARROW:
   - {t: '$$mdi:keyboard-esc$$', h: 'Ctl+Sft+$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+W
   - {t: Gui+Sft+S, h: PRINTSCREEN}
-  - $$mdi:apple-keyboard-caps$$
+  - Ctl+R
   - Ctl+T
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -198,9 +198,9 @@ layers:
   Arrow-MAC:
   - {t: '$$mdi:keyboard-esc$$', h: 'Alt+Gui+$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+W
   - {t: Sft+Gui+4, h: Gui+Sft+3}
-  - $$mdi:apple-keyboard-caps$$
+  - Gui+R
   - Gui+T
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
