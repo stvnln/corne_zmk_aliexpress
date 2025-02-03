@@ -65,9 +65,9 @@
         WIN {
             display-name = "WIN";
             bindings = <
-&mt GRAVE ESC       &kp Q  &kp W  &kp E             &kp R  &kp T                              &kp UP                &kp Y      &kp U  &kp I                &kp O           &kp P     &kp BACKSPACE
-&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D             &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K                &kp L           &kp SEMI  &kp RIGHT_SHIFT
-&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N      &kp M  &mt RIGHT_ALT COMMA  &mt DEL PERIOD  &kp FSLH  &kp SQT
+&mt GRAVE ESC       &kp Q  &kp W  &kp E             &kp R  &kp T                              &kp UP                &kp Y      &kp U  &kp I          &kp O       &kp P     &kp BACKSPACE
+&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D             &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K          &kp L       &kp SEMI  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N      &kp M  &kp COMMA      &kp PERIOD  &kp FSLH  &kp SQT
                                   &kp LEFT_CONTROL  &mo 2  &kp ENTER                                                &kp SPACE  &mo 3  &kp RIGHT_WIN
             >;
 
@@ -114,8 +114,8 @@
             display-name = "ACTIVATE";
             bindings = <
 &bt BT_CLR_ALL  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                         &mmv MOVE_UP                     &kp F6  &mt F7 C_PREVIOUS  &mt F8 C_PLAY_PAUSE  &mt F9 K_NEXT  &kp F10  &bt BT_CLR
-&trans          &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp LC(RA(DEL))    &tog 0               &tog 1         &trans   &trans
-&trans          &trans           &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &trans           &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans             &trans               &trans         &trans   &trans
+&trans          &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans             &trans               &trans         &trans   &trans
+&tog 0          &tog 1           &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &trans           &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans             &kp RIGHT_ALT        &kp DEL        &trans   &kp RA(RC(DEL))
                                                   &trans           &trans           &trans                                                                          &trans  &trans             &trans
             >;
 
