@@ -92,7 +92,7 @@
 &mt LC(LS(ESC)) ESC  &trans  &kp LC(W)    &mt PRINTSCREEN LG(LS(S))  &kp LC(R)      &kp LC(T)                                &mmv MOVE_UP                     &trans                  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT)    &trans                   &kp LS(BACKSPACE)
 &trans               &trans  &kp LS(TAB)  &kp F2                     &kp TAB        &kp LC(LS(L))            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LC(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(RC(RIGHT_ARROW))  &trans
 &kp LEFT_SHIFT       &trans  &kp LC(Z)    &trans                     &kp LC(LS(Z))  &trans         &trans                    &mmv MOVE_DOWN                   &trans                  &trans              &trans          &trans           &trans                   &trans
-                                          &kp LEFT_GUI               &mo 5          &kp LEFT_ALT                                                              &trans                  &trans              &trans
+                                          &kp LEFT_CONTROL           &mo 5          &kp LEFT_ALT                                                              &trans                  &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -101,10 +101,10 @@
         ARROW-MAC {
             display-name = "Arrow-MAC";
             bindings = <
-&mt LA(LG(ESC)) ESC  &none  &kp LG(W)    &mt LG(LS(NUMBER_3)) LS(LG(NUMBER_4))  &kp LG(R)      &kp LG(T)                               &mmv MOVE_UP                     &none                   &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp RG(RIGHT)    &none                        &kp LC(BACKSPACE)
-&none                &none  &kp LS(TAB)  &trans                                 &kp TAB        &kp LS(LG(L))           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LG(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RG(RS(RIGHT_ARROW)))  &none
-&kp LEFT_SHIFT       &none  &kp LG(Z)    &none                                  &kp LS(LG(Z))  &trans         &none                    &mmv MOVE_DOWN                   &none                   &none               &none           &none            &none                        &none
-                                         &kp LEFT_CONTROL                       &mo 5          &kp RIGHT_GUI                                                            &none                   &none               &none
+&mt LA(LG(ESC)) ESC  &none  &kp LG(W)    &mt LG(LS(NUMBER_3)) LS(LG(NUMBER_4))  &kp LG(R)      &kp LG(T)                                  &mmv MOVE_UP                     &none                   &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp RG(RIGHT)    &none                        &kp LC(BACKSPACE)
+&none                &none  &kp LS(TAB)  &trans                                 &kp TAB        &kp LS(LG(L))              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LG(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RG(RS(RIGHT_ARROW)))  &none
+&kp LEFT_SHIFT       &none  &kp LG(Z)    &none                                  &kp LS(LG(Z))  &trans            &none                    &mmv MOVE_DOWN                   &none                   &none               &none           &none            &none                        &none
+                                         &kp LEFT_GUI                           &mo 5          &kp LEFT_CONTROL                                                            &none                   &none               &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
