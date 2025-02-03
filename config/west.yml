@@ -11,8 +11,10 @@ manifest:
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
     - name: zmk
-      remote: zmkfirmware
+      url: https://github.com/stvnln/zmk      # Updated to your repository URL
       revision: main
       import: app/west.yml
   self:
     path: config
+
+
