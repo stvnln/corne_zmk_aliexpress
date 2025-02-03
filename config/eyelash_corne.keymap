@@ -92,7 +92,7 @@
 &mt LC(LS(ESC)) ESC  &trans  &kp LC(W)    &mt PRINTSCREEN LG(LS(S))  &kp LC(R)      &kp LC(T)                                &mmv MOVE_UP                     &trans                  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT)    &trans                   &kp LS(BACKSPACE)
 &trans               &trans  &kp LS(TAB)  &kp F2                     &kp TAB        &kp LC(LS(L))            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LC(LEFT_ARROW))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(RC(RIGHT_ARROW))  &trans
 &kp LEFT_SHIFT       &trans  &kp LC(Z)    &trans                     &kp LC(LS(Z))  &trans         &trans                    &mmv MOVE_DOWN                   &trans                  &trans              &trans          &trans           &trans                   &trans
-                                          &kp LEFT_CONTROL           &mo 5          &kp LEFT_ALT                                                              &trans                  &trans              &trans
+                                          &kp LEFT_CONTROL           &mo 5          &kp LEFT_GUI                                                              &trans                  &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
