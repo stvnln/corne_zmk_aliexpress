@@ -150,7 +150,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: 'Ctl+Sft+$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+W
-  - {t: Gui+Sft+S, h: PRINTSCREEN}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+R
   - Ctl+T
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -160,12 +160,12 @@ layers:
   - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Ctl+S, h: PRINTSCREEN}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab-reverse$$
   - F2
   - $$mdi:keyboard-tab$$
-  - Ctl+Sft+L
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -175,11 +175,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - Sft+Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Y
   - Ctl+Z
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+Sft+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - ACTIVATE
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -214,7 +214,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
-  - Sft+Gui+L
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -225,10 +225,10 @@ layers:
   - Gui+Gui+Sft+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Sft+Gui+Z
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - Ctl+C
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
