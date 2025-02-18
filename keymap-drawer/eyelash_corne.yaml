@@ -27,7 +27,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
