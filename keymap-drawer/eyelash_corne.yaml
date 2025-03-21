@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   MAC:
   - {t: '$$mdi:keyboard-esc$$', h: '`'}
@@ -83,7 +84,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:volume-off$$', h: 'Alt+$$mdi:volume-off$$'}
   - $$mdi:arrow-down-bold$$
   - N
   - M
