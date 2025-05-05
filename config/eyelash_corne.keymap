@@ -87,10 +87,10 @@
         ARROW_WIN {
             display-name = "ARROW";
             bindings = <
-&mt LC(LS(ESC)) ESC  &trans     &kp LC(W)    &trans        &kp LC(R)      &kp LC(T)                               &mmv MOVE_UP                     &kp LS(LC(LEFT_ARROW))  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT)    &kp RS(RC(RIGHT_ARROW))  &kp LS(BACKSPACE)
-&kp LEFT_CONTROL     &kp LC(Y)  &kp LS(TAB)  &kp F2        &kp TAB        &trans                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans                  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                   &trans
-&kp LEFT_SHIFT       &kp LC(Z)  &kp LC(X)    &kp LC(C)     &kp LC(LS(V))  &trans        &trans                    &mmv MOVE_DOWN                   &trans                  &trans              &trans          &trans           &trans                   &kp CAPSLOCK
-                                             &kp LEFT_ALT  &mo 5          &kp LEFT_GUI                                                             &trans                  &trans              &trans
+&mt LC(LS(ESC)) ESC  &trans  &trans       &trans        &trans   &trans                                  &mmv MOVE_UP                     &kp LS(LC(LEFT_ARROW))  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT)    &kp RS(RC(RIGHT_ARROW))  &kp LS(BACKSPACE)
+&kp LEFT_CONTROL     &trans  &kp LS(TAB)  &kp F2        &kp TAB  &trans                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans                  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                   &trans
+&kp LEFT_SHIFT       &trans  &trans       &trans        &trans   &trans        &trans                    &mmv MOVE_DOWN                   &trans                  &trans              &trans          &trans           &trans                   &kp CAPSLOCK
+                                          &kp LEFT_ALT  &mo 5    &kp LEFT_GUI                                                             &trans                  &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -111,10 +111,10 @@
         FN {
             display-name = "ACTIVATE";
             bindings = <
-&bt BT_CLR_ALL  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                         &mmv MOVE_UP                     &kp F6  &mt F7 C_PREVIOUS  &mt F8 C_PLAY_PAUSE  &mt F9 K_NEXT  &kp F10  &bt BT_CLR
-&trans          &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans             &trans               &trans         &trans   &trans
-&tog 0          &tog 1           &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &trans           &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans             &kp RIGHT_ALT        &kp DEL        &trans   &kp RA(RC(DEL))
-                                                  &trans           &trans           &trans                                                                          &trans  &trans             &trans
+&trans  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                             &mmv MOVE_UP                     &kp F6  &mt F7 C_PREVIOUS  &mt F8 C_PLAY_PAUSE  &mt F9 K_NEXT  &kp F10  &trans
+&trans  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans             &trans               &trans         &trans   &trans
+&tog 0  &tog 1           &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &trans           &bt BT_CLR_ALL                    &mmv MOVE_DOWN                   &trans  &trans             &kp RIGHT_ALT        &kp DEL        &trans   &kp RA(RC(DEL))
+                                          &trans           &trans           &trans                                                                              &trans  &trans             &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
