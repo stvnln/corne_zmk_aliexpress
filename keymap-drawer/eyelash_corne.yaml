@@ -166,7 +166,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - F2
   - $$mdi:keyboard-tab$$
-  - {t: 'Alt+$$mdi:apple-keyboard-control$$', h: toggle}
+  - Alt+$$mdi:apple-keyboard-control$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
