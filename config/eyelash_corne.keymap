@@ -111,7 +111,7 @@
         FN {
             display-name = "ACTIVATE";
             bindings = <
-&bt BT_SEL 0  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                             &mmv MOVE_UP                     &kp F6  &mt F7 C_PREVIOUS  &mt F8 C_PLAY_PAUSE  &mt F9 C_NEXT  &kp F10  &trans
+&bt BT_SEL 0  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                             &mmv MOVE_UP                     &kp F6  &mt F7 C_PREVIOUS  &mt F8 C_PLAY_PAUSE  &mt F9 C_NEXT  &kp F10  &kp RIGHT_CONTROL
 &bt BT_SEL 1  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans             &trans               &trans         &trans   &kp LC(LEFT_ALT)
 &bt BT_SEL 2  &tog 1           &trans           &trans           &trans           &trans           &bt BT_CLR_ALL                    &mmv MOVE_DOWN                   &trans  &trans             &kp RIGHT_ALT        &kp DEL        &trans   &kp RA(RC(DEL))
                                                 &trans           &trans           &bt BT_CLR_ALL                                                                      &trans  &trans             &trans
