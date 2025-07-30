@@ -153,7 +153,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+$$mdi:apple-keyboard-option$$
+  - Alt+$$mdi:apple-keyboard-control$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Sft+Ctl+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-left-bold$$
