@@ -156,9 +156,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Sft+Ctl+$$mdi:arrow-left-bold$$
-  - Alt+$$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - AltGr+$$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
   - Sft+Ctl+$$mdi:arrow-right-bold$$
   - {t: 'Sft+$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
@@ -199,15 +199,15 @@ layers:
   Arrow-MAC:
   - {t: '$$mdi:keyboard-esc$$', h: 'Alt+Gui+$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+W
-  - {t: Sft+Gui+4, h: Gui+Sft+3}
-  - Gui+R
-  - Gui+T
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:arrow-left-bold$$
+  - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
+  - AltGr+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
