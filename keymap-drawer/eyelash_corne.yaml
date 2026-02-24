@@ -148,7 +148,7 @@ layers:
   - ACTIVATE
   - {t: '$$mdi:backspace$$', type: backspace}
   ARROW:
-  - {t: '$$mdi:keyboard-esc$$', h: 'Ctl+Sft+$$mdi:keyboard-esc$$'}
+  - '&EscapeEnter'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
