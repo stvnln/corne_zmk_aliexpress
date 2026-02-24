@@ -89,7 +89,7 @@
             bindings = <
 &mt LC(LS(ESC)) ESC  &trans  &trans       &trans        &kp LEFT_CONTROL  &trans                                  &mmv MOVE_UP                     &kp LC(LS(L))     &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT)    &kp RC(D)          &kp LS(BACKSPACE)
 &kp LEFT_CONTROL     &trans  &kp LS(TAB)  &kp F2        &kp TAB           &trans                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LA(LEFT))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RS(RA(RIGHT))  &kp RIGHT_SHIFT
-&kp LEFT_SHIFT       &trans  &trans       &trans        &trans            &trans        &trans                    &mmv MOVE_DOWN                   &trans            &trans              &trans          &trans           &trans             &kp CAPSLOCK
+&kp LEFT_SHIFT       &trans  &trans       &trans        &trans            &trans        &trans                    &mmv MOVE_DOWN                   &trans            &kp ENTER           &trans          &trans           &trans             &kp CAPSLOCK
                                           &kp LEFT_ALT  &mo 5             &kp LEFT_GUI                                                             &trans            &trans              &trans
             >;
 
