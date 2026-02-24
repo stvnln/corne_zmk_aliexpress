@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+K
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-option$$
   - ACTIVATE
